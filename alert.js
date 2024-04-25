@@ -1,4 +1,5 @@
-var arr3 = "jones".split('');
-const removeDuplicates = (arr) => [...new Set(arr)];
-const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
-const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
+console.log(false === '0');
+const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
+const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
+const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
+const toggleBool = () => (bool = !bool);
