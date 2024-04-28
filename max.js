@@ -1,3 +1,3 @@
-const flattenedArray = arr => [].concat(...arr);
-console.log("0 || 1 = "+(0 || 1));
-const timeFromDate = date => date.toTimeString().slice(0, 8);
+const stringReverse = str => str.split("").reverse().join("");
+const isTabInView = () => !document.hidden;
+console.log( "A" - "B" + 2);
