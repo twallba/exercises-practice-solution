@@ -1,3 +1,3 @@
-const stringReverse = str => str.split("").reverse().join("");
-const isTabInView = () => !document.hidden;
-console.log( "A" - "B" + 2);
+const isArray = (arr) => Array.isArray(arr);
+const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
+var arr1 = "john".split('');
