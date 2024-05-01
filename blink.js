@@ -1,4 +1,2 @@
-const clearCookies = document.cookie.split(';').forEach(cookie => document.cookie = cookie.replace(/^ +/, '').replace(/=.*/, `=;expires=${new Date(0).toUTCString()};path=/`));
-console.log(false == '0');
-const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
-const toggleBool = () => (bool = !bool);
+const getParameters = (URL) => JSON.parse('{"' + decodeURI(URL.split("?")[1]).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') +'"}');
+console.log((function f(n){return ((n > 1) ? n * f(n-1) : n)})(10));
