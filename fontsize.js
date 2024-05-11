@@ -1,2 +1,3 @@
-const added = [0, 1, 2, 3, 4].map((item) => item + 1);
-const appName = getAppName(channel);
+const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
+const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
+const merge = [...new Set([...a, ...b])];
