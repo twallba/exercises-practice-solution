@@ -1,2 +1,2 @@
-console.log("0 && 1 = "+(0 && 1));
-console.log("1 && 2 = "+(1 && 2));
+const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
+const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
