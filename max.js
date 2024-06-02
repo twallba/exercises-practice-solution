@@ -1,3 +1,2 @@
-const stringReverse = str => str.split("").reverse().join("");
-const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
-const isEven = (num) => num % 2 === 0;
+const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
+console.log("0 || 1 = "+(0 || 1));
