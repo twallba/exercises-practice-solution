@@ -1,3 +1,3 @@
-const isEven = (num) => num % 2 === 0;
-const reversedString = str => str.split('').reverse().join('');
-const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
+const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
+const updated = numbers.filter(element => element > 6);
+const randomNumberInRange = (min = 0, max = 100) => Math.floor(Math.random() * (max - min + 1)) + min;
