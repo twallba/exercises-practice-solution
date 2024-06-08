@@ -1,2 +1,2 @@
-console.log(+"1" +  "1" + "2");
-const isTabInView = () => !document.hidden;
+const getRandomBoolean = () => Math.random() >= 0.5;
+console.log("0 && 1 = "+(0 && 1));
