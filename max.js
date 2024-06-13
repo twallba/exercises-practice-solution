@@ -1,2 +1,3 @@
-const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
-console.log("0 || 1 = "+(0 || 1));
+console.log(false === '0');
+const maxNumber = arr => Math.max(...arr);
+const resultingPromises = urls.map((url) => makHttpRequest(url));
