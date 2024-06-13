@@ -1,2 +1,2 @@
-const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
-console.log(false === '0');
+const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
+const currentDate = () => new Date().toLocaleDateString('en-US');
