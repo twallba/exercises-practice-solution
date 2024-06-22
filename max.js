@@ -1,3 +1,3 @@
-console.log(false === '0');
-const maxNumber = arr => Math.max(...arr);
-const resultingPromises = urls.map((url) => makHttpRequest(url));
+console.log(1 +  -"1" + "2");
+const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
+const apmRootPath = path.join(repositoryRootPath, 'apm');
