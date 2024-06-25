@@ -1,1 +1,1 @@
-const isTabInView = () => !document.hidden;
+const channelName = getChannelName(channel);
