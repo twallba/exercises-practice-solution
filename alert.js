@@ -1,2 +1,2 @@
-const merge = Object.assign({}, obj1, obj2);
-const isEven = (num) => num % 2 === 0;
+const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+console.log(typeof typeof 1);
