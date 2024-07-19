@@ -1,1 +1,2 @@
-const value = ( 5 < 7 ) ? "True" : "False" ;
+const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
+const channel = getChannel(computedAppVersion);
