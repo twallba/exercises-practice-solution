@@ -1,3 +1,3 @@
-const minNumber = arr => Math.min(...arr);
-const copyToClipboard = (text) => navigator.clipboard.writeText(text);
-console.log(['foo', 'bar'].concat(['baz', 'qux'].reverse().slice(1)).join(' ').replace(/a/i, 'ee').toUpperCase());
+const updated = numbers.filter(element => element > 6);
+const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+const currentDate = () => new Date().toLocaleDateString('en-US');
