@@ -1,2 +1,3 @@
-const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
-console.log(typeof typeof 1);
+const uniqueArray = arr => [...new Set(arr)];
+const flattenedArray = arr => [].concat(...arr);
+const value = ( 5 < 7 ) ? "True" : "False" ;
