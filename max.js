@@ -1,2 +1,3 @@
-console.log(+"1" +  "1" + "2");
-const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
+const symbolsPath = path.join(buildOutputPath, 'symbols');
+const allResults = await Promise.all(items.map(async (item) => {}));
+const isWeekday = (date) => date.getDay() % 6 !== 0;
