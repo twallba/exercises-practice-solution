@@ -1,1 +1,1 @@
-const executableName = getExecutableName(channel, appName);
+const buildOutputPath = path.join(repositoryRootPath, 'out');
